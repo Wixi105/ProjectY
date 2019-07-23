@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container {
+    width: auto;
+
+}
+
+div.userinfo {
+    background-color: #F1F1F2;
+    color: black;
+}
+
+div.userinfo p {
+    font-family: 'little ninja';
+    display: inline-block;
+    padding: 5px;
+    border-right: 2px solid #75b1a9;
+
+}
+
+
+nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #375e97;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    overflow-y: scroll;
+
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+hr {
+    position: relative;
+    width: 50%;
+    left: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'little ninja';
+    font-weight: 400;
+    color: #f1f1f2;
+    /*overcast*/
+    font-size: 25px;
+    display: block;
+    transition: 0.3s
+}
+
+.list_items {
+    padding: 8px;
+
+
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#maincontent {
+    transition: margin-left .5s;
+    padding: 20px;
+    height: 100%;
+}
+
+button.navigate {
+    float: right;
+    margin: 10px 10px 0px 0px;
+    background-color: #1e1e20;
+    color: #F1F3CE;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px #92AAC7;
+    z-index: 100;
+
+}
+
+button.navigate:hover {
+    background-color: #f1f1f2;
+    color: #1e1e20;
+    cursor: pointer;
+    font-weight: 800;
+    box-shadow: 0px 0px 0px;
+
+}
+
+
+a:hover {
+    background-color: white;
+    color: #4897D8;
+    /*electric-blue*/
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#navigate_image  {
+    text-align: center;
+}
+
+#navigate_image img{
+    border-radius: 45%;
+}
+
+
+.user_details {
+    display: inline-block;
+    padding: 5px;
+}
+
+#useritems {
+    background-color: black;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}

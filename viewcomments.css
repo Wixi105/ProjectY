@@ -1,0 +1,65 @@
+div.maincontent{
+    display: inline-block;
+}
+
+
+div.comment{
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 7px;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: #F1F1F2;
+    
+}
+
+p.comment-author{
+    /* position: relative;
+    right: 154px; */
+    font-family: "Merienda",sans-serif;
+    word-wrap: break-word;
+
+    }
+
+
+p.comment-date{
+font-size: 15px;
+/* float: left; */
+word-wrap: break-word;
+text-decoration: underline;
+}
+
+p.comment-content{
+    font-size: 20px;
+    clear: both;
+    padding: 7px;
+    word-wrap: break-word;
+
+}
+
+p.comment-position{
+    font-size: 14px;
+    padding: 3px;
+    color: #F34A4A;
+    word-wrap: break-word;
+
+}
+
+p.comment-email{
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #080706;
+
+}
+
+@font-face {
+    font-family: "Merienda";
+    src: url(Fonts/merienda-regular.ttf);
+}
+
+
+        
+   
+
